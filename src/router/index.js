@@ -4,6 +4,7 @@ import StoriesView from '../views/StoriesView.vue'
 import StoryView from '../views/StoryView.vue'
 import JokesView from '../views/JokesView.vue'
 import AboutView from '../views/AboutView.vue'
+import PrivacyView from '../views/PrivacyView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const router = createRouter({
@@ -27,6 +28,7 @@ const router = createRouter({
     },
     { path: '/jokes', name: 'jokes', component: JokesView, meta: { title: '笑话' } },
     { path: '/about', name: 'about', component: AboutView, meta: { title: '关于' } },
+    { path: '/privacy', name: 'privacy', component: PrivacyView, meta: { title: '隐私政策' } },
     { path: '/:pathMatch(.*)*', name: 'not-found', component: NotFoundView, meta: { title: '没找到' } },
   ],
 })
