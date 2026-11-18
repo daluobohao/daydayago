@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
   <footer class="footer">
     <div class="wrap footer-inner">
       <div>
-        <p>达达呀果 · 个人小站</p>
+        <p>萝卜天空 · 个人小站</p>
         <p>只放童话和笑话，让人看完更开心一点。没有机构，也没有广告。</p>
       </div>
       <p class="footer-meta">

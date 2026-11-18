@@ -34,7 +34,7 @@ const router = createRouter({
 })
 
 router.afterEach((to) => {
-  const base = '达达呀果'
+  const base = '萝卜天空'
   document.title = to.meta.title ? `${to.meta.title} · ${base}` : base
 })
 

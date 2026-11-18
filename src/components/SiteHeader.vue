@@ -38,7 +38,7 @@ onUnmounted(() => {
       <RouterLink to="/" class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         <span>
-          <span class="brand-name">达达呀果</span>
+          <span class="brand-name">萝卜天空</span>
           <span class="brand-note">个人故事匣</span>
         </span>
       </RouterLink>

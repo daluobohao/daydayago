@@ -18,7 +18,7 @@ const preview = stories.slice(0, 3)
         <p class="eyebrow">个人小站 · 只为开心</p>
         <h1>好故事<br />好笑的话<br />都收在这里</h1>
         <p class="lede">
-          达达呀果是我自己的小站。这里有几则想一想会更开心的童话，也有随手记下的笑话。没有单位，没有广告，翻开就好。
+          萝卜天空是我自己的小站。这里有几则想一想会更开心的童话，也有随手记下的笑话。没有单位，没有广告，翻开就好。
         </p>
         <div class="hero-actions">
           <RouterLink class="btn btn-primary" to="/stories">读一则童话</RouterLink>

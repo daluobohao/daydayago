@@ -17,11 +17,11 @@ function onScroll() {
 }
 
 watch(story, (value) => {
-  if (value) document.title = `${value.title} · 达达呀果`
+  if (value) document.title = `${value.title} · 萝卜天空`
 })
 
 onMounted(() => {
-  if (story.value) document.title = `${story.value.title} · 达达呀果`
+  if (story.value) document.title = `${story.value.title} · 萝卜天空`
   onScroll()
   window.addEventListener('scroll', onScroll, { passive: true })
 })
